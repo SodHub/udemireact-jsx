@@ -11,7 +11,7 @@ const App = () => {
     const buttonTxt = 'Click';
     return (
         <div>
-        <label className="label">
+        <label htmlFor="name" className="label">
             Enter name:
         </label>
         <input id="name" type="text" />
